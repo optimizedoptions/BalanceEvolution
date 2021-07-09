@@ -18,7 +18,7 @@ class Simulation:
             
     def setparams(self,winratio,capital,profit,loss,npaths,ntrades):
         '''
-        setparams(self,winratio,capital,profit,loss,npaths,ntrades) -> sets the 
+        setparams(winratio,capital,profit,loss,npaths,ntrades) -> sets the 
         parameters for an MC simulation.
         '''
         if isinstance(npaths,int):
